@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="@drawable/ic_launcher_background">
+
+        <Button
+                android:id="@+id/buttonBroswer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TO BAIDU"/>
+        <TextView
+                android:id="@+id/viewSecond"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="defalut"
+        />
+        <Button
+                android:id="@+id/buttonSecondBack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Back"/>
+        <Button
+                android:id="@+id/buttonBackData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BACKWITHDATA"
+        />
+        <ImageView
+                android:id="@+id/imageView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"/>
+        <Button android:id="@+id/btnToProgressBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BTNPROGRESS"/>
+        <ProgressBar
+                android:id="@+id/progressbar1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:max="100"/>
+        <Button
+                android:id="@+id/btnAlertDialog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BTNAlertDiaLog"/>
+</LinearLayout>
